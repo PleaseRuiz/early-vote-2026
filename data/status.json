@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-10-13T22:24:52+00:00",
+  "states": {
+    "NC": {
+      "good": {
+        "accepted_ballots": 29467,
+        "as_of_date": "2026-10-13",
+        "complete_through": "2026-10-12",
+        "crosscheck": {
+          "official_total": 29469,
+          "record_file_total": 29469,
+          "status": "matched"
+        },
+        "election_date": "2026-11-03",
+        "fetched_at": "2026-10-13T22:24:45+00:00",
+        "name": "North Carolina",
+        "records_read": 29745,
+        "snapshot": "data/snapshots/nc/2026-10-13.csv",
+        "source_last_modified": "2026-10-13T09:16:44+00:00",
+        "source_version": "cb96f3e58db3c5529caed1d292e84794|2026-10-13T09:16:44+00:00",
+        "sources": [
+          {
+            "label": "Absentee and early-voting records (ZIP)",
+            "last_modified": "2026-10-13T09:16:44+00:00",
+            "url": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/absentee_20261103.zip"
+          },
+          {
+            "label": "Statewide absentee counts (CSV, cross-check)",
+            "last_modified": "2026-10-13T08:40:44+00:00",
+            "url": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/absentee_counts_state_20261103.csv"
+          },
+          {
+            "label": "NCSBE absentee data page",
+            "url": "https://www.ncsbe.gov/results-data/absentee-data"
+          }
+        ],
+        "state": "NC",
+        "statewide_total": 29467,
+        "warnings": [
+          "2 ballot(s) returned on the publication day are left for the next edition"
+        ]
+      },
+      "last_attempt_at": "2026-10-13T22:24:52+00:00",
+      "last_error": null,
+      "last_result": "unchanged",
+      "last_success_at": "2026-10-13T22:24:45+00:00",
+      "name": "North Carolina",
+      "ok": true
+    }
+  }
+}
