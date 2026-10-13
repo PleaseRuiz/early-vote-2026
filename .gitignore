@@ -1,0 +1,17 @@
+# Raw downloads may contain voter names and addresses. Never commit them.
+*.zip
+raw/
+.cache/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# Site build
+node_modules/
+site/dist/
+site/public/data/
+screenshots/
+.DS_Store
